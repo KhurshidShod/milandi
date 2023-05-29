@@ -23,6 +23,7 @@ module.exports = {
         font12: '12px',
         font14: '14px',
         font16: '16px',
+        font20: '20px',
         font23: '23px',
         font34: '34px',
       },
