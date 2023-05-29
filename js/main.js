@@ -5,5 +5,5 @@ navOpen.addEventListener("click", () => {
     document.querySelector(".nav__menu").style.top = "0%"
 });
 navClose.addEventListener("click", () => {
-    document.querySelector(".nav__menu").style.top = "-150%"
+    document.querySelector(".nav__menu").style.top = "-1500%"
 });
