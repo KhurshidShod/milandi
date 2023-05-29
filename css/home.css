@@ -641,6 +641,10 @@ video {
   flex-grow: 1;
 }
 
+.cursor-pointer{
+  cursor: pointer;
+}
+
 .flex-row{
   flex-direction: row;
 }
