@@ -12,6 +12,7 @@ module.exports = {
       colors: {
         black: '#000000',
         navBlack: '#0D0D0D',
+        greyBg: '#0D0D0D',
         yellow: '#FFC000',
         navBg: '#FAFAFA',
         lightGrey: '#E5E5E5',
@@ -23,8 +24,11 @@ module.exports = {
         font12: '12px',
         font14: '14px',
         font16: '16px',
+        font18: '18px',
         font23: '23px',
+        font20: '20px',
         font34: '34px',
+        font46: '46px'
       },
       container: {
         maxWidth: '500px'

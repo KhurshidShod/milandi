@@ -4,9 +4,12 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Оплата</title>
-    <link rel="stylesheet" href="css/paying.css">
-    <link rel="stylesheet" href="css/payingg.css">
+    <link rel="stylesheet" href="css/login.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.4.0/css/all.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.4.0/css/sharp-solid.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.4.0/css/sharp-regular.css">
+    <link rel="stylesheet" href="https://site-assets.fontawesome.com/releases/v6.4.0/css/sharp-light.css">
+    <title>Вход</title>
 </head>
 <body>
     <header class="h-28 z-[99999999999] w-[100%] bg-navBg sticky top-0 shadow-lg duration-500">
@@ -46,21 +49,25 @@
             <button class="text-font23 hover:text-yellow transition-colors"><i class="fa-regular fa-cart-shopping"></i></button>
         </nav>
     </header>
-    <main class="container font-['Montserrat']">
-        <h1 class="container__h1">Оплата</h1>
-        <div class="container__wrapper">
-            <div class="container__wrapper-left">
-                <img src="images/f.png" alt="">
+    <main>
+        <section class="pt-[168px] pb-[64px]">
+            <div class="container mx-auto">
+                <div class="flex flex-col md:flex-row justify-between">
+                    <div class="w-[100%] md:w-[45%]">
+                        <img class="w-[100%]" src="images/login.png" alt="">
+                    </div>
+                    <div class="w-[100%] md:w-[45%] flex flex-col justify-center items-start p-5 pt-10">
+                        <input class="text-font16 rounded-[6px] border-[1px] border-[#DBDEE7] w-[100%] sm:w-[264px] h-[44px] pl-2 text-navBlack font-normal" type="email" name="" id="logEmail" placeholder="E-mail">
+                        <p class="mb-3 mt-5"><b>Пароль</b></p>
+                        <div class="relative w-[100%] sm:w-[264px]">
+                            <input id="logPass" class="text-font16 rounded-[6px] border-[1px] border-[#DBDEE7] w-[100%] sm:w-[264px] h-[44px] pl-2 text-navBlack font-normal" type="text" name="">
+                            <i id="profilePasswordToggle" class="fa-sharp fa-light fa-eye-slash absolute top-[50%] right-[10px] cursor-pointer translate-y-[-50%]"></i>
+                        </div>
+                        <button onclick="login()" class="w-[262px] h-[60px] bg-yellow text-white rounded-[6px] mt-3">Войти</button>
+                    </div>
+                </div>
             </div>
-            <div class="container__wrapper-right">
-                <form action="">
-                    <input placeholder="Имя на карте" type="text">
-                    <input placeholder="Номер карты" type="text">
-                    <input placeholder="MM/YY" type="text">
-                    <input placeholder="Оплатить" type="submit">
-                </form>
-            </div>
-        </div>
+        </section>
     </main>
     <footer class="bg-white w-[100%] min-h-[320px] flex justify-center items-center mt-7">
         <div class="container mx-auto flex justify-between flex-wrap gap-10 p-5 font-['Montserrat']">

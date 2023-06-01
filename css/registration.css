@@ -746,6 +746,14 @@ video {
   width: 30%;
 }
 
+.w-\[45\%\]{
+  width: 45%;
+}
+
+.w-\[95\%\]{
+  width: 95%;
+}
+
 .w-full{
   width: 100%;
 }
@@ -1111,6 +1119,10 @@ video {
 
 .pt-\[80px\]{
   padding-top: 80px;
+}
+
+.pt-5{
+  padding-top: 1.25rem;
 }
 
 .text-center{
